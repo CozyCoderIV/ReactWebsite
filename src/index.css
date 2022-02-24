@@ -1,16 +1,22 @@
 body{
-  background: rgb(32, 32, 32);
+  background: rgb(14, 14, 14);
 }
+
+/* Header : Top */
 .dummyClass{
   background: linear-gradient(to right, black, rgb(3, 36, 46));
     border: solid;
-    border-color: rgba(0, 0, 0, 0.651);
+    /* border-color: rgba(0, 0, 0, 0.651); */
+    border-color: rgba(255, 255, 255, 0.651);
     border-radius: 10px;
     border-width: 2px;
 
     height: 4em;
+    position: fixed;
 
     display: grid;
+    margin-top: -162ch;
+    width: 98%;
 }
 .dummyClass:hover{
   background: linear-gradient(to right, black, rgb(4, 46, 59));
@@ -44,7 +50,8 @@ body{
   border-color: black;
 
   flex: 1 1 100%;
-  max-width: 10ch;
+  /* max-width: 40ch; */
+  max-width: 99%;
   height: 3ch;
   margin-left: 1ch; 
   margin-top: 1.8em;
@@ -52,4 +59,184 @@ body{
   color: rgb(210, 246, 248);
   text-align: center;
 }
+.nav-item:hover{
+  color: rgb(225, 247, 248);
+}
 
+/* Container : Body */
+#boxA-container{
+   background: rgb(19, 19, 19);
+   height: 80em;
+   width: 95%;
+   display: grid;
+
+   margin-left: 3%;
+   border: solid;
+   border-color: rgba(255, 255, 255, 0.651);
+   border-width: 1px;
+   border-radius: 10px;
+   color:rgb(0, 0, 0);
+
+   box-shadow: 0px 0px 15px 5px rgba(147, 196, 218, 0.479);
+}
+#contact-container{
+  /* background: rgba(15, 48, 53, 0.26);
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px; */
+  height: 100px;
+
+  grid-column: 3;
+  margin-top: 5em;
+  margin-right: 1em;
+ 
+  display: grid;
+}
+.contact-item{
+  background: rgb(32, 32, 32);
+  border: solid;
+  border-width: .3px;
+  border-radius: 10px;
+  border-color: black;
+  height: 30px;
+
+  margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+  
+  flex: 1 1 100%;
+
+  font-family: 'Supermercado One', cursive;
+  text-align: center;
+  justify-self: center;
+}
+#git{
+  color:rgb(210, 246, 248);
+  max-width: 95%;
+  min-width: 99%;
+}
+#git:hover{
+  background: rgb(56, 56, 56);
+}
+#link{
+  color:rgb(70, 121, 155);
+  max-width: 95%;
+  min-width: 99%;
+}
+#link:hover{
+  background: rgb(56, 56, 56);
+}
+#inst{
+  color: rgb(218, 193, 202);
+  max-width: 95%;
+  min-width: 99%;
+}
+#inst:hover{
+  background: rgb(56, 56, 56);
+}
+#contact_title{
+  color: rgb(255, 255, 255);
+  grid-row: 1;
+  grid-column: span 3;
+
+  width: 100%;
+}
+
+#box-b-container {
+  /* background: rgba(15, 48, 53, 0.26);
+  border: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px; */
+  height: 100px;
+
+  max-width: 95%;
+
+  grid-row: 1;
+  grid-column: span 2;
+  margin-top: 5em;
+
+  display: grid;
+}
+.boxB-item { 
+  background: rgb(32, 32, 32);
+  border: solid;
+  border-width: .3px;
+  border-radius: 10px;
+  border-color: black;
+  height: 30px;
+
+  margin-top: 15px;
+  margin-left: 1px;
+  margin-right: 1px;
+  
+  flex: 1 1 100%;
+
+  font-family: 'Supermercado One', cursive;
+  text-align: center;
+  justify-self: center;
+}
+#a {
+  margin-top: 15px;
+  grid-column: 1;
+  grid-row: 1;
+  width: 80%;
+  height: 50%;
+}
+#b {
+  margin-top: 70px;
+  grid-column: 1;
+  grid-row: 1;
+  width: 80%;
+  height: 50%;
+}
+#c {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  
+  margin-right: 3ch;
+}
+
+#welcomeBanner{
+  background-color: rgb(32, 32, 32);
+  grid-column: span 3;
+  grid-row: 2;
+
+  border-radius: 10px;
+
+  margin-top: 4ch;
+  margin-bottom: 30ch;
+  margin-left: 2ch;
+  margin-right: 2ch;
+
+  height: 20%;
+}
+.Portion{
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  margin: 1ch;
+}
+#Portion-1{
+  grid-row: 3;
+  grid-column: span 3;
+  margin-top: -190px;
+  margin-left: 2ch;
+  margin-right: 2ch;
+
+  height: 50ch;
+}
+#Portion-2{
+  grid-row: 4;
+  grid-column: span 3;
+  margin-left: 2ch;
+  margin-right: 2ch;
+}
+#Portion-3{
+  grid-row: 5;
+  grid-column: span 3;
+  margin-left: 2ch;
+  margin-right: 2ch;
+}

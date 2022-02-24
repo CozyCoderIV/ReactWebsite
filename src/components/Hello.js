@@ -16,10 +16,9 @@ const Hello = () => {
         {id: 'navbar'},
         React.createElement('div', {id: 'hello', className: 'nav-item'}, "Home"),
         React.createElement('div', {id: 'story', className: 'nav-item'}, "Story"),
-        React.createElement('div', {id: 'feats', className: 'nav-item'}, "Prize"),
+        React.createElement('div', {id: 'feats', className: 'nav-item'}, "Feats"),
         React.createElement('div', {id: 'goals', className: 'nav-item'}, "Goals"),
-        React.createElement('div', {id: 'art', className: 'nav-item'}, "Artwork")
-          )
+        React.createElement('div', {id: 'art', className: 'nav-item'}, "Artwork"))
     );
 }
 
